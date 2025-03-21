@@ -1,4 +1,6 @@
 cmake_minimum_required(VERSION 3.0.2)
+add_compile_options(-std=c++17)
+
 project(rosconsole)
 
 if(NOT WIN32)
